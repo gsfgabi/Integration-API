@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Atual e Previsões</title>
+    <link rel="stylesheet" href="css/clima.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Clima Atual e Previsões</h1>
+        <input type="text" id="cityInput" placeholder="Digite uma cidade" />
+        <button onclick="getWeather()">Buscar Clima</button>
+        
+        <div id="weatherInfo">
+            <p id="cityName"></p>
+            <p id="currentTemp"></p>
+            <p id="currentWeather"></p>
+            <p id="forecast"></p>
+        </div>
+    </div>
+
+    <script src="js/clima.js"></script>
+</body>
+</html>
