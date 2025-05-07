@@ -15,6 +15,7 @@ app.post('/somar', (req, res) => {
 
     const soma = valores.reduce((acc, num) => acc + num, 0);
     res.json({ resultado: soma });
+});
 
 /**
  * @swagger
